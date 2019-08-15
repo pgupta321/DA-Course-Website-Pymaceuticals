@@ -1,0 +1,51 @@
+.mb-5 h1 {
+    font-size: 10pt;
+}
+
+.masthead {
+    font-size: 20pt;
+    margin-left: 0px;
+}
+
+@media (min-width: 320px) {
+    header.masthead .header-content h1 {
+    font-size: 20px;
+    }
+    .single_chart {
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    header.masthead .header-content h1 {
+    font-size: 25px;
+    }
+    .single_chart {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    header.masthead .header-content h1 {
+    font-size: 30px;
+    }
+    .single_chart {
+        margin: auto;
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+.viz-home {
+    max-width: 325px;
+    padding-top: 150px;
+    
+}
+
+
+
+
